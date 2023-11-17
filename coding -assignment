@@ -1,0 +1,40 @@
+# Coding Assignment
+
+**Assignment Brief**
+
+Design and implement a Question Paper Generator application
+
+The application must store a number of questions in a Question Store. A question can have the following attributes {question, subject, topic, difficulty, marks}
+
+<aside>
+💡 `{“What is the speed of light”, “Physics”, “Waves”, “Easy”, 5}`
+
+</aside>
+
+The Question paper Generator should look for questions in the Question Store and then generate the question paper based on the total marks and the distribution of marks based on *Difficulty*
+
+**Example**
+
+Assume the below requirement for a question paper:
+
+> (100 marks, Difficulty, {20% Easy, 50% Medium, 30% Hard })
+> 
+
+The problem statement here is that you need to generate a question paper of 100 marks total of which 20% (ie, 20 marks) worth of questions should have the *Difficulty*=Easy, 50% having *Difficulty*=Medium and 30% having *Difficulty*=Hard
+
+**Expectations**
+
+1. Try to keep the code as modular and as extensible as possible while following the best practices and community conventions
+2. We look for code that is open for extension so build the application that can easily scale with new future requirements. Example, what if we want to mention the percentages of questions from each *Topic* that the question paper should accommodate too.
+3. Handle the edge cases properly and fail gracefully
+4. You must provide the code setup and the steps for us to run the application and see what you have built
+5. We're a Javascript team! And as a Backend Engineer, we expect you to have fair knowledge in Nodejs and the assignment is also expected in Nodejs
+
+**Guidelines**
+
+1. Sample data needs to be prepared by you based on the above brief. You can keep it into a file or keep it as a string/json input
+2. You can push the assignment code on Github with the appropriate steps for us to follow and run your application
+3. You can use any open-source packages and share with us any interesting aspects using it, if not the best part of using it, we'd love to hear about new things
+4. We admire folks who evolve with tech. We assume you to use the best in class tools to build & present your solution
+5. We love to hear clear explanations and expect you to communicate your solutions with clarity
+6. Last but not least, we appreciate folks who ask the right questions to make better technical decisions, so feel free to ask any relevant question
