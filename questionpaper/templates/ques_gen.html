@@ -6,8 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>generator-questions</title>
     <link rel="stylesheet" href="{% static 'css/question.css' %}">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <style>
+        /* Add this to your question.css file or include it in your HTML within a <style> tag */
+
+/* Style for the button container */
+button-container {
+    text-align: center; /* Center the buttons */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+/* Style for the buttons */
+#prev-button,
+#next-button {
+    padding: 10px 20px; /* Add padding for better appearance */
+    font-size: 16px; /* Adjust the font size */
+    margin: 0 10px; /* Add some horizontal margin between buttons */
+    cursor: pointer; /* Change cursor on hover to indicate interactivity */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    margin-left: 40px;
+}
+
+/* Style for the buttons on hover */
+#prev-button:hover,
+#next-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+    </style>
+ 
 </head>
 <body>
-    <h1 style="text-align: center; color: brown;"> this is questions generator applicatons based on marks </h1><hr>
+    <h1 style="text-align: center; color:  maroon">**** Question-Paper-Generator-application**** </h1><hr>
+    <p id="question-text" style="margin-left: 50px; font-size: 30px;">Loading question...</p>
+    <div>
+        <button id="prev-button">Previous</button>
+        <button id="next-button">Save and Next</button>
+    </div>
+     
+
+ <!-- Update the script source to 'js/question.js' -->
+<script src="{% static 'js/question.js' %}"></script>
+
 </body>
 </html>
