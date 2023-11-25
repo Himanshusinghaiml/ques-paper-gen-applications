@@ -1,7 +1,4 @@
-from django.db import models
 
-# Create your models here.
-# question_generator/models.py
 from django.db import models
 
 class QuestionStore(models.Model):
