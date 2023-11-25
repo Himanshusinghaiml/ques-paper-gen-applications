@@ -18,7 +18,7 @@ Firstly cloning using this link :-
 * [Built Using](#built-using)
  
  
- ![question showing](https://github.com/Himanshusinghaiml/ques-paper-gen-applications/blob/main/questionpaper/static/img/show.png)
+ ![question showing](https://github.com/Himanshusinghaiml/ques-paper-gen-applications/blob/main/show.png)
  
 
 ## <a name="built-using"></a> Built Using:
