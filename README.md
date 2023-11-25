@@ -2,13 +2,14 @@
 # HOW TO RUN
 --------------------------------------------------------------------
 Firstly cloning using this link :-
-1. open your git bash copy and paste 
--copy: git clone https://github.com/Himanshusinghaiml/ques-paper-gen-applications
-2. open your file in cmd where is your root directory
- 3. after navigate your repo Run this command  `pip install -r requirements.txt`
-4. after run this command run django make migrations `python manage.py makemigrations`
- 5. then run django migrations `python manage.py migrate`
- 6. Last run your server : `python manage.py runserver`
+1. open your git bash copy and paste
+   whole link -
+ git clone https://github.com/Himanshusinghaiml/ques-paper-gen-applications
+3. open your file in cmd where is your root directory
+ 4. after navigate your repo Run this command  `pip install -r requirements.txt`
+5. after run this command run django make migrations `python manage.py makemigrations`
+ 6. then run django migrations `python manage.py migrate`
+ 7. Last run your server : `python manage.py runserver`
  
 
 ## Table of Content
