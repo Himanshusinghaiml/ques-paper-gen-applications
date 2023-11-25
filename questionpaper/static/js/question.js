@@ -9,6 +9,8 @@ $(document).ready(function () {
                 if (data.question_text) { 
                     $('#question_no').next('label').text(data.id);
                     $('#question-text').text(`Question ${data.id}: ${data.question_text}`);
+                    $('#difficulty').text(`Difficulty: ${data.difficulty}`);
+                    $('#marks').text(`Marks: ${data.marks}`);
                     
                     size = data.size;
                 } else {

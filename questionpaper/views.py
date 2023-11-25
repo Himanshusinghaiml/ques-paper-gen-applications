@@ -38,12 +38,17 @@ def get_next_question(request, current_question_id):
         data = {
             'id':next_question.id,
             'question_text': next_question.question,
+            'difficulty': next_question.difficulty,
+            'marks': next_question.marks,
             'size':QuestionStore.objects.count()
         }
     else:
         data = {
             'id':'',
             'question_text': "No more questions",
+            'difficulty': '',
+            'marks': '',
+
             'size':QuestionStore.objects.count()
         }
 
@@ -58,11 +63,15 @@ def get_previous_question(request, current_question_id):
     if previous_question:
         data = {
             'id':previous_question.id,
+            'difficulty': previous_question.difficulty,
+            'marks': previous_question.marks,
             'question_text': previous_question.question,
         }
     else:
         data = {
             'id':'',
+            'difficulty': '',
+            'marks': '',
             'question_text': "No previous questions",
         }
 
