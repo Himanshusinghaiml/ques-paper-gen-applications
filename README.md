@@ -25,5 +25,4 @@ Firstly cloning using this link :-
 - HTML
 - CSS
 - Django
-- SQLite3
 - mysql 
